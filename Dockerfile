@@ -8,5 +8,4 @@ WORKDIR /usr/src/mymaven/
 ENTRYPOINT []
 
 VOLUME /root/.m2
-
-
+VOLUME /usr/src/mymaven
