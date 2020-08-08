@@ -440,9 +440,11 @@
                 <version>2.6</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <!--
                     <warSourceExcludes>
                         WEB-INF/views/**/*.jsp,bower/**/*
                     </warSourceExcludes>
+                    -->
                     <packagingExcludes>
                         WEB-INF/lib/junit*.jar,
                         WEB-INF/lib/tomcat*.jar
